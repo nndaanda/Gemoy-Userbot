@@ -55,9 +55,9 @@ async def shutdown_bot(event):
         await event.client.send_message(
             BOTLOG_CHATID,
             "**#SHUTDOWN** \n"
-            "**Cilik Userbot** telah di matikan!\nJika ingin menghidupkan kembali silahkan buka heroku",
+            "**Gemoy Userbot** telah di matikan!\nJika ingin menghidupkan kembali silahkan buka heroku",
         )
-    await edit_or_reply(event, "**Cilik Userbot Berhasil di matikan!**")
+    await edit_or_reply(event, "**Gemoy Userbot Berhasil di matikan!**")
     if HEROKU_APP is not None:
         HEROKU_APP.process_formation()["worker"].scale(0)
     else:
@@ -68,10 +68,10 @@ async def shutdown_bot(event):
 async def restart_bot(event):
     if event.sender_id in SUDO_USERS:
         return
-    await edit_or_reply(event, "**Cilik Userbot Berhasil di Restart**")
+    await edit_or_reply(event, "**Gemoy Userbot Berhasil di Restart**")
     if BOTLOG_CHATID:
         await event.client.send_message(
-            BOTLOG_CHATID, "#RESTART \n" "**Cilik Userbot Berhasil Di Restart**"
+            BOTLOG_CHATID, "#RESTART \n" "**Gemoy Userbot Berhasil Di Restart**"
         )
     args = [sys.executable, "-m", "userbot"]
     execle(sys.executable, *args, environ)
@@ -82,7 +82,7 @@ async def reedme(event):
     await edit_or_reply(
         event,
         "**Berikut sesuatu untuk kamu baca:**\n"
-        "\n┌✪ [Userbot Repo](https://github.com/grey423/CilikUserbot/blob/CilikUserbot/README.md)"
+        "\n┌✪ [Userbot Repo](https://github.com/nndaanda/Gemoy-Userbot/blob/Gemoy-Userbot/README.md)"
         "\n└✪ [Setup Guide - LastFM Module](https://telegra.ph/How-to-set-up-LastFM-module-for-Paperplane-userbot-11-02)",
     )
 
@@ -107,9 +107,9 @@ async def repo_is_here(event):
     await xx.edit(
         "**Usᴇʀʙᴏᴛ Tᴇʟᴇɢʀᴀᴍ**\n"
         "𝗥𝗲𝗽𝗼 🇮🇩\n"
-        "╰⎆ [𝐂𝐈𝐋𝐈𝐊-𝐔𝐒𝐄𝐑𝐁𝐎𝐓​](https://github.com/grey423/CilikUserbot)\n"
+        "╰⎆ [Gemoy-Userbot​](https://github.com/nndaanda/Gemoy-Userbot)\n"
         "✪ **Oᴡɴᴇʀ​** ⎆ [Grey](t.me/greyyvbss)\n"
-        "✪ **Sᴜᴘᴘᴏʀᴛ**​ ⎆ [groups](t.me/CilikSupport)\n"
+        "✪ **Sᴜᴘᴘᴏʀᴛ**​ ⎆ [groups](t.me/gemoysupport)\n"
     )
                
 
@@ -119,7 +119,7 @@ async def string_is_here(event):
         event,
         "**List Bot**\n"
         "\n┌✪ **GET STRING BOT:**"
-        "\n└✪ [[ KLIK DISINI ]](https://t.me/CilikStringbot)",
+        "\n└✪ [[ KLIK DISINI ]](https://t.me/StringCilik_bot)",
     )
 
 
