@@ -1,6 +1,6 @@
-<h1 align="center"><img src="./resources/GeezFire.gif" width="35px">Cɪʟɪᴋ-Uꜱᴇʀʙᴏᴛ<img src="./resources/GeezFire.gif" width="35px"></h1>
+<h1 align="center"><img src="./resources/GeezFire.gif" width="35px">Gemoy-Userbot<img src="./resources/GeezFire.gif" width="35px"></h1>
 <p align="center">
-    <img alt="CILIK VERSION" src="https://img.shields.io/badge/CILIK%20VERSION-4.+-brightgreen"/>
+    <img alt="GEMOY VERSION" src="https://img.shields.io/badge/GEMOY%20VERSION-4.+-brightgreen"/>
     <img alt="BUILD IN" src="https://img.shields.io/badge/BUILD%20-Last Day-brightgreen"/>
            <a href="https://travis-ci.com/grey423/CilikUserbot.svg?branch=main" /></a>
     <a href="https://github.com/grey423/CilikUserbot/network/members"> <img src="https://img.shields.io/github/forks/grey423/CilikUserbot?logo=github&style=for-the-badge" /></a>
@@ -10,10 +10,10 @@
    </p>
 
 <p align="center">
-  <img src="https://telegra.ph/file/ac134f6d295ad0c03af9b.jpg">
+  <img src="https://telegra.ph/file/9e144809a7dedb3a0baf9.jpg">
 </p>
 
-Cilik-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
+Gemoy-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
 
 Berbasis [Paperplane](https://github.com/RaphielGang/Telegram-UserBot) dan [ProjectBish](https://github.com/adekmaulana/ProjectBish) userbot.
 Saya membuat repository ini untuk memilih dan menambahkan beberapa modul yang saya butuhkan dengan banyak perubahan, fitur dan modul.
@@ -31,7 +31,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 <p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=Z3JleTQyMy9DaWxpa1VzZXJib3QgbWFpbg"> <img 
 src="https://img.shields.io/badge/Deploy%20To%20Bot%20Heroku-blue?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/grey423/sahur"> <img 
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/nndaanda/Gemoy-Userbot"> <img 
 src="https://img.shields.io/badge/Deploy%20To%20Heroku-purple?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 <p align="center"><a href="https://t.me/CilikStringBot"><img src="https://img.shields.io/badge/Generate%20String%20Session-blue?style=for-the-flat&logo=telegram" width="210" height"34.45" /</a></p>
