@@ -1,9 +1,9 @@
 {
-  "name": "Cilik-Userbot",
-  "description": "[Cilik-Userbot] userbot Telegram modular yang berjalan pada Python 3.9+",
-  "logo": "https://telegra.ph/file/ac134f6d295ad0c03af9b.jpg",
-  "keywords": ["telegram", "userbot", "cilik-userbot", "modular", "python"],
-  "repository": "https://github.com/grey423/Cilik-Userbot",
+  "name": "Gemoy-Userbot",
+  "description": "[Gemoy-Userbot] userbot Telegram modular yang berjalan pada Python 3.9+",
+  "logo": "https://telegra.ph/file/9e144809a7dedb3a0baf9.jpg",
+  "keywords": ["telegram", "userbot", "gemoy-userbot", "modular", "python"],
+  "repository": "https://github.com/nndaanda/Gemoy-Userbot",
   "stack": "container",
   "env": {
     "API_KEY": {
