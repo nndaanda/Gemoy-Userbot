@@ -61,7 +61,7 @@ async def cilik_userbot_on():
             await bot.send_file(
                 BOTLOG_CHATID,
                 ALIVE_LOGO,
-                caption=f"🔥 **Gemoy-Userbot Berhasil Diaktifkan**!!\n━━━━━━━━━━━━━━━\n➠ **Userbot Version** - 1.1 @Gemoy-Userbot\n➠ **Ketik** `.ping` **Untuk Mengecheck Bot**\n━━━━━━━━━━━━━━━\n➠ **Powered By:** @gemoysupport ",
+                caption=f"🔥 **Gemoy-Userbot Berhasil Diaktifkan**!!\n━━━━━━━━━━━━━━━\n➠ **Userbot Version** - 1.1 @Gemoy-Userbot\n➠ **Ketik** `.ping` **Untuk Mengecheck Bot**\n━━━━━━━━━━━━━━━\n➠ **Powered By:** @gemoyysupport ",
             )
     except Exception as e:
         LOGS.info(str(e))
