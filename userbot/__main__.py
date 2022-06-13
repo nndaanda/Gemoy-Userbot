@@ -51,7 +51,7 @@ if not BOTLOG_CHATID:
     bot.loop.run_until_complete(autopilot())
 
 LOGS.info(
-    f"Jika {user.first_name} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/CilikSupport")
+    f"Jika {user.first_name} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/gemoyySupport")
 LOGS.info(
     f"🔥 Gemoy-Userbot 🔥 ⚙️ V{BOT_VER} [TELAH DIAKTIFKAN!]")
     
